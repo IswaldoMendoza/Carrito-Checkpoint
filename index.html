@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <title>Carrito</title>
+</head>
+
+<div id="opacidad"></div>
+
+<body background="./img/fondoDePagina.jpg">
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns" id="imgLogo">
+                    <img src="./img/48x48.png" id="logo">
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                    </tbody>
+                                </table>
+
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>Tiendita</h2>
+                        <p>Todos los juegos a $150</p>
+                        <form id="busqueda" class="formulario">
+                            <input class="u-full-width" type="text" placeholder="¿Que juego buscabas?" id="buscador">
+                            <input type="submit" id="submit-buscador" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>Contactanos<br>
+                        Si se te ocurre que debemos incluir algun titulo dejanos saberlo</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Clasicos<br>
+                        Explora los juegos más resaltantes</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Descarga cuando quieras<br>
+                        Cuando lo adquieres lo puedes descargar una y otra vez</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lista-juegos" class="container">
+        <h1 id="encabezado" class="encabezado">La Tienda del Buhonero</h1>
+
+    </div>
+
+
+    <!-- COMIENZO DEL FOOTER -->
+
+
+    <footer>
+        <div class="container-footer">
+            <div class="footer bg-dark">
+
+                <div class="medias">
+
+
+                    <div class="caja">
+                        <h2>Empresa</h2>
+                        <ul>
+                            <li><a href="#" style="text-decoration: none;">Sobre Nosotros</a></li>
+                            <li><a href="#" style="text-decoration: none;">Contactanos</a></li>
+                            <li><a href="#" style="text-decoration: none;">Trabaja con nosotros</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="caja">
+                        <h2>Comprar</h2>
+                        <ul>
+                            <li><a href="#" style="text-decoration: none;">Como Comprar</a></li>
+                            <li><a href="#" style="text-decoration: none;">Lista de Juegos</a></li>
+                            <li><a href="#" style="text-decoration: none;">Colecciones</a></li>
+                            <li><a href="#" style="text-decoration: none;">Categorias</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="caja">
+                        <h2>Ayuda</h2>
+                        <ul>
+                            <li><a href="#" style="text-decoration: none ;">FAQ</a></li>
+                            <li><a href="#" style="text-decoration: none;">¿Como comprar?</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="caja">
+                        <h2>Comunidad</h2>
+                        <ul>
+                            <li><a href="#" style="text-decoration: none;">Blog</a></li>
+                            <li><a href="#" style="text-decoration: none;">Twitch</a></li>
+                            <li><a href="#" style="text-decoration: none;">Discord</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="caja" id="cajaDeRedes">
+                    <div>
+                        <ul>
+                            <a href="http://www.instagram.com" target="_blank"><img class="redes"
+                                    src="https://www.msm.gov.ar/wp-content/uploads/2020/05/new-instagram-logo-png-transparent-light.png"
+                                    alt="instagram"></a>
+                            <a href="http://www.facebook.com" target="_blank"><img class="redes"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png"
+                                    alt="facebok"></a>
+                            <a href="http://www.twich.com" target="_blank"><img class="redes"
+                                    src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c540.png"
+                                    alt="twitch"></a>
+                            <a href="http://www.twitter.com" target="_blank"><img class="redes"
+                                    src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"
+                                    alt="twiter"></a>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="copyright">
+                <p>Todos los derechos reservados © 2022 | <i>Iswaldo Mendoza</i></p>
+            </div>
+        </div>
+    </footer>
+    <!-- fin del footer -->
+
+    <script src="js/carrito.js"></script>
+
+</body>
+
+</html>
